@@ -1,0 +1,43 @@
+<html>
+<body>
+<div class="row text-center" style="padding:20px 0 50px 0">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 foll1" style="padding-bottom:25px">
+    	Follow us to stay in touch
+    </div>
+	<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+    </div>
+	<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        	<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-vxs-12">
+            	<span><A href="https://www.facebook.com/flocareer" target="_blank"><img alt="Jobs in Bangalore" src="images/fb.png" /></A></span>
+               	<div class="socialC1">
+                	<div class="fb-page" data-href="https://www.facebook.com/flocareer" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    	<div class="fb-xfbml-parse-ignore">
+                        	<blockquote cite="https://www.facebook.com/flocareer">
+                            	<a href="https://www.facebook.com/flocareer">FloCareer.com</a>
+                          	</blockquote>
+                      	</div>
+                   	</div>
+            	</div>
+          	</div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-vxs-12">
+            	<span><A href="https://twitter.com/flocareer" target="_blank"><img alt="Jobs in Bangalore" src="images/twitter.png" /></A></span>
+                <div class="socialC1">
+                    <a class="twitter-timeline" href="https://twitter.com/FloCareer" data-widget-id="717933011015086081" width="300" height="500">Tweets by @FloCareer</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+          	</div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 col-vxs-12">
+            	<span><A href="https://www.linkedin.com/company/flocareer" target="_blank"><img alt="Jobs in Bangalore" src="images/linkedin1.png" /></A></span>
+                <div class="socialC1">
+					<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                    <script type="IN/CompanyProfile" data-id="7804041" data-format="inline" data-width="300" data-height="700"></script>
+                </div>
+         	</div>
+        </div>
+    </div>
+	<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+    </div>
+</div>
+</body>
+</html>
