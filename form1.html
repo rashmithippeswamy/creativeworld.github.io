@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+
+ .container{
+ height:100%; 
+ }
+ 
+ form{
+ width: 100%;
+    height: 100%;
+ background-color:whitesmoke;
+ padding-left:200px;
+ padding-right:20px;
+ margin-top:15px;
+ }
+
+</style>
+<body>
+<div class="container">
+   <form name="myForm" onsubmit=" " enctype="multipart/form-data" action=""  method="post">
+ 
+  <div class="form-group">
+      <div class="row">
+    <div class="col-md-6">
+     <center><h3>Job Seekers Application</h3></center>
+    </div>
+    </div><br>
+    <hr><br>
+    
+  <div class="row">
+    <div class="col-md-2">
+      <p>First Name</p>
+       </div>
+     <div class="col-md-4">
+      <input type="text" name="firstName" id="firstName" class="form-control">
+       </div>
+   </div><br>
+   
+   
+   <div class="row">
+    <div class="col-md-2">
+      <p>Last Name</p>
+       </div>
+     <div class="col-md-4">
+      <input type="text" name="lastName" id="lastName" class="form-control">
+       </div>
+   </div><br>
+   
+   
+    <div class="row">
+    <div class="col-md-2">
+      <p>Address</p>
+       </div>
+     <div class="col-md-4">
+     <p>street address</p>
+      <input type="text" name="streetAddress" id="streetAddress" class="form-control">
+       </div>
+   </div><br>
+
+   <div class="row">
+    <div class="col-md-2"></div>
+        <div class="col-md-2">
+      <p>City</p>
+      <input type="text" name="city" id="city" class="form-control">
+       </div>
+    <div class="col-md-2">
+     <p>State/Province</p>
+      <input type="text" name="state" id="state" class="form-control">
+       </div>
+   </div><br>
+   
+    <div class="row">
+    <div class="col-md-2"></div>
+        <div class="col-md-2">
+      <p>Postal/Zip Code</p>
+      <input type="text" name="city" id="city" class="form-control">
+       </div>
+    <div class="col-md-2">
+     <p>Country</p>
+    <select name="Country" id="Country" class="form-control" >
+    <option value="INDIA">INDIA</option>
+    <option value="NEW ZELAND">NEW ZELAND</option>
+    <option value="AMERICA">AMERICA</option>
+    <option value="JAPAN">JAPAN</option>
+    <option value="CHINA">CHINA</option>
+    <option value="BRAZIL">BRAZIL</option>
+    </select>
+       </div>
+   </div><br>
+   
+     <div class="row">
+      <div class="col-md-2">
+   <p>Phone Number</p></div>
+    <div class="col-md-4">
+    <input type="text" name="phone" id="phone" class="form-control">
+    </div>
+    </div><br>
+   
+   
+    <div class="row">
+      <div class="col-md-2">
+     <p>Position for which you are applying for?</p>
+   </div>
+    <div class="col-md-4">
+     <select name="Position" id="Position" class="form-control" >
+     <option value="Sales Associate">Sales Associate</option>
+     <option value="Custer Service Associate">Custer Service Associate</option>
+     <option value="Shift Manager">Shift Manager</option>
+     <option value="Assistant Manager">Assistant Manager</option>
+     <option value="Other">Other</option>
+    
+     </select>
+    </div>
+   </div><br>
+   
+   
+    <div class="row">
+      <div class="col-md-2">
+     <p>Have you previously worked us?</p>
+   </div>
+    <div class="col-md-4">
+     <select name="worked" id="worked" class="form-control" >
+     <option value="Yes">Yes</option>
+     <option value="No">No</option>
+     <option value="Shift Manager">Shift Manager</option>
+     <option value="Assistant Manager">Assistant Manager</option>
+     <option value="Other">Other</option>
+    
+     </select>
+    </div>
+   </div><br>
+   
+   
+     <div class="row">
+      <div class="col-md-2">
+   <p>Upload Your CV </p></div>
+    <div class="col-md-4">
+    <input type="file" name="uploadfile" id="uploadfile" class="form-control">
+    </div>
+    </div><br>
+    
+       <div class="row">
+      <div class="col-md-4"></div>
+    <div class="col-md-2">
+    <input type="submit" name="submit" id="submit" class="form-control">
+    </div>
+    </div><br>
+   </form>
+   
+</div>
+</div>
+</body>
+</html>
